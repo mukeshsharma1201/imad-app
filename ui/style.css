@@ -1,26 +1,123 @@
 body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+    background-color: white;
+	margin:1px 1px;
+	font-family: "Gill Sans",sans-serif;
+	font-size:1.2em;
+	color:#404040;	/*Dark Gray*/
+	padding:10px;	/*assign to all side*/
+	padding-top:0;	/*Negate padding for top*/
 }
 
-.center {
-    text-align: center;
+h1 {
+    font-size:2.5em;
+    color:#FF2C00; /*red*/
 }
 
-.text-big {
-    font-size: 300%;
+header{
+	float:center;
+	text-align:center;
+}
+header h1{
+	
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline;
+}
+h2 {
+    font-size : 1.5em;
+    color : #FF8500; /*orange*/
 }
 
-.bold {
-    font-weight: bold;
+h3 {
+    font-size : 1.2em;
+    color : #00B945; /*green*/
 }
 
-.img-medium {
-    height: 200px;
+aside {
+    float : left;
+	text-align:center;
+    width : 320px;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    background-color : #D0D0D0 ; /*Dark Gray*/
+    padding : 5px;
+    border : 1px solid #A8A8A8;	/**Dark-er Gray*/
 }
 
-.footer{
-    color:red;font-style:italic;
+aside div {
+    padding : 5px;
+    background-color : #F0F0F0; /*Light Gray*/
+    margin-bottom : 15px;
 }
 
+aside h1{
+	font-size:1.5em;
+	margin-top:0px;
+}
+
+aside h2{
+
+}
+
+a:link, a:visited {
+    color: #3AA6E2;
+    text-decoration: none;
+}
+
+nav.header-nav{
+	margin-bottom:10px;
+}
+
+nav a{
+	color:#0776A0;
+	font-weight:bold;
+	padding: 10px 25px;
+    text-align: center; 
+	display: inline-block;
+}
+nav a:hover, a:active {
+    background-color:lightgreen;
+	color:#033a4f;
+}
+
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav li{
+	display:inline;
+}
+
+aside ul{
+	list-style-type:none;
+	line-height:1.5em;
+	text-align:left;
+	margin-left:20px;
+}
+
+ul.custom-list{
+	list-style-position:inside;
+    list-style-image: url('tick.ico');
+    line-height : 1.8em;
+}
+
+div.quote{
+	font-style:italic;
+}
+
+img.logo{
+	float:left;
+	height:3em;
+	margin-right:30px;
+	margin-top:0px;
+}
+img.profile-pic{
+	border-color:gray;
+	border-width:1px;
+	border-style:dotted;
+	height:200px;
+}

@@ -1,22 +1,60 @@
 <!doctype html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+		<title>MUKESH KUMAR'S WEB PAGE DEMO! </title>
+        <link href="style.css" rel="stylesheet" />
+		<meta name="description" content="Learning to make a web app through IMAD course!"/>
+		<meta name="author" content="Mukesh Kumar: mukeshsharma1201@gmail.com"/>
+		<meta name="keywords" content="Mukesh Kumar, IMAD, Webapp, Learning"/>
+		<meta http-equiv="Content-Type" content="html/text;">
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! This is mukesh kumar's first webapp.
-        </div>
-        
-        <footer class="footer center">
-            A little quote I like.
-        </footer>
-        
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+        <div class="container">
+			<header><!-- Common top part in every page!-->
+				<abbr title="Love love love!"><img src="logo1.png" class="logo" alt="Logo of webapge here!"></abbr>
+				<h1>WEBPAGE DEMO 1.0</h1>
+				<nav class="header-nav">
+					<ul>
+						<li><a href="index.html">About</a>|</li>
+						<li><a href="work.html">Work</a>|</li>
+						<li><a href="life.html">Life</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<aside><!-- Left panel-->
+				<h1>Know the person!</h1>
+				<div>
+					<abbr title="my profile picture"><img src="dp.png" alt="profile picture" class="profile-pic"></abbr>
+					<ul>
+					<li>Mukesh Kumar</li>
+					<li>BSc (Computer Science)</li>
+					<li>Pune, Maharastra</li>
+					</ul>
+				</div>
+				
+				<div class="quote">
+					<p><q> Some more quircky information realted to me or what i said in a quote!!</q></p>
+				</div>
+			</aside>
+			<div><!--Main Page content-->
+				<h1>About</h1>
+				<p><br> Hi there, I'm Mukesh Kumar. I Enrolled in Introduction to mordern application developmet and now brushing up my HTML and CSS knowlege. Evidently it is quite average! Nither too good to be designer;Nor too bad to be a beginner. I am hanging somewhere in between.
+				<br> This is first version on my web page, have a look, explore.
+				</p>
+				<p>Things i might have used in this page
+				<ul class="custom-list">
+						<li> HTML(duh!)</li>
+						<li> CSS (Style is the essence!)</li>
+						<li> PHP (It gives a dynamic edge, and i know how to use it, so why not?)</li>
+				</ul>
+				</p>
+			</div>
+			<footer><!--Owner info and contact-->
+				<ul><li>Owner : mukeshsharma1201@gmail.com</li><li>Imad Website: &copy; <a href="imad.hasura.io">imad.hasura.io</a></li></ul>
+			</footer>
+		</div>
+        <script type="text/javascript" src="main.js">
+		</script>
     </body>
 </html>
