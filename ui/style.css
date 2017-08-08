@@ -101,7 +101,7 @@ aside ul{
 
 ul.custom-list{
 	list-style-position:inside;
-    list-style-image: url('tick.ico');
+    list-style-image: url('ui\tick.ico');
     line-height : 1.8em;
 }
 
